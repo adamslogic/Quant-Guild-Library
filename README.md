@@ -15,10 +15,11 @@ Welcome to the **Quant Guild Library** — a curated collection of Jupyter Noteb
 ### 📅 2026 Video Lectures (Newest First)
 
 **Latest:**
-- **100.** [Black-Litterman vs. Mean-Variance Portfolio Optimization in Python](https://youtu.be/o1mCFVt79Y8)
-- **99.** [Quant Ranks Retail Trading Mistakes that Blow Up Your Account](https://youtu.be/1mpNxBaBeOw)
+- **101.** [Stop Using the Sharpe Ratio Until You Watch This](https://youtu.be/NJ5PNfIQHrE)
 
 **Previous:**
+- **100.** [Black-Litterman vs. Mean-Variance Portfolio Optimization in Python](https://youtu.be/o1mCFVt79Y8)
+- **99.** [Quant Ranks Retail Trading Mistakes that Blow Up Your Account](https://youtu.be/1mpNxBaBeOw)
 - **98.** [How to Get Historical Market Data with Interactive Brokers and Python](https://youtu.be/7hezNf49iKc)
 - **97.** [3 Backtesting Pitfalls That Ruin Your Trading Strategy](https://youtu.be/sjq3toGtr0U)
 - **96.** [I Bet You've Never Found Alpha (and I Can Prove It)](https://youtu.be/UzTJHs3-eT0)
