@@ -15,6 +15,8 @@ Welcome to the **Quant Guild Library** — a curated collection of Jupyter Noteb
 ### 📅 2026 Video Lectures (Newest First)
 
 **Latest:**
+- **105.** [How to Live According to Math](https://youtu.be/yuMKoXmjtNg)
+- **104.** [The Gaussian Cookbook for Aspiring Quants](https://youtu.be/GyrcydIWJpo)
 - **103.** [Quant Finance in 3 Minutes](https://youtu.be/2-gEfXQZFr0)
 
 **Previous:**
