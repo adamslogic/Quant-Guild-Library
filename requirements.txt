@@ -1,0 +1,10 @@
+nbformat
+nbclient
+rich
+jupyter
+pandas
+numpy
+scipy
+matplotlib
+yfinance
+ib_insync

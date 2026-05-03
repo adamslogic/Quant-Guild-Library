@@ -1,0 +1,10 @@
+# Exclude generated knowledge staging and summaries
+knowledge_staging/
+distilled_repo_summary.txt
+
+# Exclude executed notebook copies
+*_executed.ipynb
+
+# Python cache
+__pycache__/
+*.pyc
