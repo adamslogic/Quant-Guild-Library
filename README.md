@@ -18,10 +18,10 @@ Welcome to the **Quant Guild Library** — a curated collection of Jupyter Noteb
 
 **Latest:**
 - **108.** [Ultimate Options Trading Crash Course](https://youtu.be/-lQdlJh8cCE)
-- **107.** [How to Trade Options with the Black-Scholes Model](https://youtu.be/1OByexsEJXc)
-- **106.** [How to Trade the Covered Call](https://youtu.be/iPsPRQlDeTA)
 
 **Previous:**
+- **107.** [How to Trade Options with the Black-Scholes Model](https://youtu.be/1OByexsEJXc)
+- **106.** [How to Trade the Covered Call](https://youtu.be/iPsPRQlDeTA)
 - **105.** [How to Read Options Chains](https://youtu.be/RrRbz6oXwxE)
 - **104.** [The Gaussian Cookbook for Aspiring Quants](https://youtu.be/GyrcydIWJpo)
 - **103.** [Quant Finance in 3 Minutes](https://youtu.be/2-gEfXQZFr0)
