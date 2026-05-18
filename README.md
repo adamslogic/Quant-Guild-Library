@@ -2,9 +2,9 @@
 
 Welcome to the **Quant Guild Library** — a curated collection of Jupyter Notebooks and lecture videos diving deep into quantitative finance. Topics range from stochastic calculus and options pricing to trading strategies and AI in finance.
 
-[🚀 Master Quantitative Skills with Quant Guild](https://quantguild.com)
+[🌀 discourses.io | ⚔️ Play the Markets like an RPG](https://discourses.io)
 
-[🌀 discourses.io | Where Markets are Discussed](https://discourses.io)
+[🚀 Master Quantitative Skills with Quant Guild](https://quantguild.com)
 
 [📈 Interactive Brokers for Algorithmic Trading](https://www.interactivebrokers.com/mkt/?src=quantguildY&url=%2Fen%2Fwhyib%2Foverview.php)
 
