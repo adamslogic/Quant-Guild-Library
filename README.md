@@ -17,10 +17,11 @@ Welcome to the **Quant Guild Library** — a curated collection of Jupyter Noteb
 ### 📅 2026 Video Lectures (Newest First)
 
 **Latest:**
-- **112.** [Why your Trading Strategy Sucks](https://youtu.be/8kBpVelo9Tg)
-- **111.** [The Mathematical Delusion of Retail Trading](https://youtu.be/RBfc8SkRwwU)
+- **113.** [How to Trade the Cash Secured Put](https://youtu.be/mFovTf-TMvw)
 
 **Previous:**
+- **112.** [Why your Trading Strategy Sucks](https://youtu.be/8kBpVelo9Tg)
+- **111.** [The Mathematical Delusion of Retail Trading](https://youtu.be/RBfc8SkRwwU)
 - **110.** [Coding an AI Bot to Trade Nvidia (From Scratch)](https://youtu.be/qKCjatq9CZM)
 - **109.** [Vibe Coding an Options Trading System](https://youtu.be/FdqvAuHOQeE)
 - **108.** [Ultimate Options Trading Crash Course](https://youtu.be/-lQdlJh8cCE)
