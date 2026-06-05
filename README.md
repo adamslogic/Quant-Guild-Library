@@ -17,6 +17,7 @@ Welcome to the **Quant Guild Library** — a curated collection of Jupyter Noteb
 ### 📅 2026 Video Lectures (Newest First)
 
 **Latest:**
+- **116.** [The S&P 500 Lie Retail Investors Believe](https://youtu.be/sgbEkAYAdwk)
 - **115.** [How a Quant Engineers a Portfolio](https://youtu.be/ztQNQBP3MIc)
 
 **Previous:**
