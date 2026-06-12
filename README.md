@@ -17,6 +17,7 @@ Welcome to the **Quant Guild Library** — a curated collection of Jupyter Noteb
 ### 📅 2026 Video Lectures (Newest First)
 
 **Latest:**
+- **118.** [No. You don't need to backtest a trading strategy.](https://youtu.be/KD_fh_jA_iQ)
 - **117.** [What Exactly is Volatility Drag](https://youtu.be/Soea_7rzkR8)
 
 **Previous:**
