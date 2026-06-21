@@ -15,6 +15,7 @@ Welcome to the **Quant Guild Library** — a curated collection of Jupyter Noteb
 ### 📅 2026 Video Lectures (Newest First)
 
 **Latest:**
+- **120.** [I Met a Jane Street Quant at the Gym (He Got This Wrong)](https://youtu.be/E73rL7Hex-k)
 - **119.** [Volatility Risk Premium Explained: Implied vs Realized Volatility](https://youtu.be/kmAE9ZhQ0jU)
 
 **Previous:**
