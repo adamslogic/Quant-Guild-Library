@@ -17,6 +17,7 @@ Welcome to the **Quant Guild Library** — a curated collection of Jupyter Noteb
 ### 📅 2026 Video Lectures (Newest First)
 
 **Latest:**
+- **122.** [A REAL Quant Debunks the Day Trading Scam](https://youtu.be/xa5eSjASDWo)
 - **121.** [Stock Picking is Worse than Gambling at a Casino (I Can Prove It)](https://youtu.be/E2PuxT_SucA)
 
 **Previous:**
