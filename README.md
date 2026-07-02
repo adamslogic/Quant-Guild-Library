@@ -4,7 +4,7 @@ Welcome to the **Quant Guild Library** — a curated collection of Jupyter Noteb
 
 [🚀 Master Quantitative Skills with Quant Guild](https://quantguild.com)
 
-[🛡️ Apply to Run a Personal Hedge Fund](https://quantguild.com/personal-hedge-fund)
+[🛡️ Learn to Run a Personal Hedge Fund](https://quantguild.com/personal-hedge-fund)
 
 [📈 Interactive Brokers for Algorithmic Trading](https://www.interactivebrokers.com/mkt/?src=quantguildY&url=%2Fen%2Fwhyib%2Foverview.php)
 
@@ -17,10 +17,11 @@ Welcome to the **Quant Guild Library** — a curated collection of Jupyter Noteb
 ### 📅 2026 Video Lectures (Newest First)
 
 **Latest:**
-- **122.** [A REAL Quant Debunks the Day Trading Scam](https://youtu.be/xa5eSjASDWo)
-- **121.** [Stock Picking is Worse than Gambling at a Casino (I Can Prove It)](https://youtu.be/E2PuxT_SucA)
+- **123.** [How a Quant would Invest $1,000,000](https://youtu.be/37wRzGdC9w4)
 
 **Previous:**
+- **122.** [A REAL Quant Debunks the Day Trading Scam](https://youtu.be/xa5eSjASDWo)
+- **121.** [Stock Picking is Worse than Gambling at a Casino (I Can Prove It)](https://youtu.be/E2PuxT_SucA)
 - **120.** [I Met a Jane Street Quant at the Gym (He Got This Wrong)](https://youtu.be/E73rL7Hex-k)
 - **119.** [Volatility Risk Premium Explained: Implied vs Realized Volatility](https://youtu.be/kmAE9ZhQ0jU)
 - **118.** [No. You don't need to backtest a trading strategy.](https://youtu.be/KD_fh_jA_iQ)
