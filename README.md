@@ -4,6 +4,8 @@ Welcome to the **Quant Guild Library** — a curated collection of Jupyter Noteb
 
 [🚀 Master Quantitative Skills with Quant Guild](https://quantguild.com)
 
+[🛡️ Learn to Run a Personal Hedge Fund](https://quantguild.com/personal-hedge-fund)
+
 [📈 Interactive Brokers for Algorithmic Trading](https://www.interactivebrokers.com/mkt/?src=quantguildY&url=%2Fen%2Fwhyib%2Foverview.php)
 
 [👾 Join the Quant Guild Discord server here](https://discord.com/invite/MJ4FU2c6c3)
@@ -15,10 +17,26 @@ Welcome to the **Quant Guild Library** — a curated collection of Jupyter Noteb
 ### 📅 2026 Video Lectures (Newest First)
 
 **Latest:**
-- **107.** [How to Trade Options with the Black-Scholes Model](https://youtu.be/1OByexsEJXc)
-- **106.** [How to Trade the Covered Call](https://youtu.be/iPsPRQlDeTA)
+- **123.** [How a Quant would Invest $1,000,000](https://youtu.be/37wRzGdC9w4)
 
 **Previous:**
+- **122.** [A REAL Quant Debunks the Day Trading Scam](https://youtu.be/xa5eSjASDWo)
+- **121.** [Stock Picking is Worse than Gambling at a Casino (I Can Prove It)](https://youtu.be/E2PuxT_SucA)
+- **120.** [I Met a Jane Street Quant at the Gym (He Got This Wrong)](https://youtu.be/E73rL7Hex-k)
+- **119.** [Volatility Risk Premium Explained: Implied vs Realized Volatility](https://youtu.be/kmAE9ZhQ0jU)
+- **118.** [No. You don't need to backtest a trading strategy.](https://youtu.be/KD_fh_jA_iQ)
+- **117.** [What Exactly is Volatility Drag](https://youtu.be/Soea_7rzkR8)
+- **116.** [The S&P 500 Lie Retail Investors Believe](https://youtu.be/sgbEkAYAdwk)
+- **115.** [How a Quant Engineers a Portfolio](https://youtu.be/ztQNQBP3MIc)
+- **114.** [Modeling with the Law of Total Expectation](https://youtu.be/-CPUbalMh14)
+- **113.** [How to Trade the Cash Secured Put](https://youtu.be/mFovTf-TMvw)
+- **112.** [Why your Trading Strategy Sucks](https://youtu.be/8kBpVelo9Tg)
+- **111.** [The Mathematical Delusion of Retail Trading](https://youtu.be/RBfc8SkRwwU)
+- **110.** [Coding an AI Bot to Trade Nvidia (From Scratch)](https://youtu.be/qKCjatq9CZM)
+- **109.** [Vibe Coding an Options Trading System](https://youtu.be/FdqvAuHOQeE)
+- **108.** [Ultimate Options Trading Crash Course](https://youtu.be/-lQdlJh8cCE)
+- **107.** [How to Trade Options with the Black-Scholes Model](https://youtu.be/1OByexsEJXc)
+- **106.** [How to Trade the Covered Call](https://youtu.be/iPsPRQlDeTA)
 - **105.** [How to Read Options Chains](https://youtu.be/RrRbz6oXwxE)
 - **104.** [The Gaussian Cookbook for Aspiring Quants](https://youtu.be/GyrcydIWJpo)
 - **103.** [Quant Finance in 3 Minutes](https://youtu.be/2-gEfXQZFr0)
