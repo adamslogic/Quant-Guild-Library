@@ -17,6 +17,7 @@ Welcome to the **Quant Guild Library** — a curated collection of Jupyter Noteb
 ### 📅 2026 Video Lectures (Newest First)
 
 **Latest:**
+- **124.** [When Does a Trading Strategy Actually Need to be Secret](https://youtu.be/WsEwKlr_1lA)
 - **123.** [How a Quant would Invest $1,000,000](https://youtu.be/37wRzGdC9w4)
 
 **Previous:**
