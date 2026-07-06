@@ -17,10 +17,12 @@ Welcome to the **Quant Guild Library** — a curated collection of Jupyter Noteb
 ### 📅 2026 Video Lectures (Newest First)
 
 **Latest:**
-- **124.** [When Does a Trading Strategy Actually Need to be Secret](https://youtu.be/WsEwKlr_1lA)
-- **123.** [How a Quant would Invest $1,000,000](https://youtu.be/37wRzGdC9w4)
+- **126.** [How to Model Tail-Risk: A Quantitative Survival Guide](https://youtu.be/-sE1kz-fypI)
+- **125.** [How to Calculate and Use Compound Annual Growth Rate (CAGR)](https://youtu.be/kOzvtRE_uX8)
 
 **Previous:**
+- **124.** [When Does a Trading Strategy Actually Need to be Secret](https://youtu.be/WsEwKlr_1lA)
+- **123.** [How a Quant would Invest $1,000,000](https://youtu.be/37wRzGdC9w4)
 - **122.** [A REAL Quant Debunks the Day Trading Scam](https://youtu.be/xa5eSjASDWo)
 - **121.** [Stock Picking is Worse than Gambling at a Casino (I Can Prove It)](https://youtu.be/E2PuxT_SucA)
 - **120.** [I Met a Jane Street Quant at the Gym (He Got This Wrong)](https://youtu.be/E73rL7Hex-k)
