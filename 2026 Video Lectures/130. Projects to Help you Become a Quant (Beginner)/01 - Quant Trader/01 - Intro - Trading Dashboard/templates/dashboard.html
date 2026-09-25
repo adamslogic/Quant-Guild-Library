@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+{% block title %}Trading Dashboard — Results{% endblock %}
+
+{% block head_extra %}
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+{% endblock %}
+
+{% block content %}
+<div class="results-head">
+  <div>
+    <h1 class="results-title">Portfolio Tearsheet</h1>
+    <p class="results-meta">
+      {{ n_obs }} daily observations · {{ start_date }} → {{ end_date }}
+    </p>
+  </div>
+  <div class="results-actions">
+    {% if is_sample %}
+    <form action="{{ url_for('analyze') }}" method="POST" class="inline-form">
+      <input type="hidden" name="sample" value="true" />
+      <label class="mini-control">
+        <span>Window</span>
+        <select name="window" onchange="this.form.submit()" class="select select-sm">
+          {% for w in allowed_windows %}
+          <option value="{{ w }}" {% if w == window %}selected{% endif %}>{{ w }}d</option>
+          {% endfor %}
+        </select>
+      </label>
+    </form>
+    {% else %}
+    <span class="mini-control"><span>Window</span>&nbsp;{{ window }}d</span>
+    {% endif %}
+    <a href="{{ url_for('index') }}" class="btn btn-ghost btn-sm">↺ New analysis</a>
+  </div>
+</div>
+
+{% if factor_is_synthetic %}
+<div class="banner banner-warn">
+  ⚠ Fama-French factors are <strong>synthetic</strong> (offline fallback — not real market data).
+  Factor loadings below are illustrative only.
+</div>
+{% else %}
+<div class="banner banner-info">
+  Factor data source: <strong>{{ factor_source }}</strong>
+</div>
+{% endif %}
+
+<!-- Metric cards -->
+<section class="cards-grid">
+  {% for c in cards %}
+  <div class="metric-card">
+    <div class="metric-label">{{ c.label }}</div>
+    <div class="metric-value
+      {%- if c.positive is not none %}{% if c.positive %} pos{% else %} neg{% endif %}{% endif %}">
+      {{ c.value }}
+    </div>
+    <div class="metric-hint">{{ c.hint }}</div>
+  </div>
+  {% endfor %}
+</section>
+
+<!-- Charts -->
+<section class="charts-grid">
+  <div class="panel panel-wide">{{ chart_html.equity | safe }}</div>
+  <div class="panel">{{ chart_html.drawdown | safe }}</div>
+  <div class="panel">{{ chart_html.rolling_sharpe | safe }}</div>
+  <div class="panel panel-wide">{{ chart_html.attribution | safe }}</div>
+  <div class="panel">{{ chart_html.loadings | safe }}</div>
+  <div class="panel benchmark-panel">
+    <h3 class="panel-title">SPY Benchmark</h3>
+    <table class="bench-table">
+      <tr><td>CAGR</td><td>{{ spy_stats.cagr }}</td></tr>
+      <tr><td>Volatility</td><td>{{ spy_stats.vol }}</td></tr>
+      <tr><td>Sharpe</td><td>{{ spy_stats.sharpe }}</td></tr>
+      <tr><td>Max Drawdown</td><td>{{ spy_stats.mdd }}</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- Factor tables -->
+<section class="tables-grid">
+  <div class="panel">
+    <h3 class="panel-title">Fama-French 5-Factor Regression
+      <span class="panel-sub">R² = {{ '%.3f' % ff5_r2 }}</span>
+    </h3>
+    <table class="factor-table">
+      <thead>
+        <tr><th>Factor</th><th>β / coef</th><th>Annualized</th><th>t-stat</th><th>p-value</th></tr>
+      </thead>
+      <tbody>
+        {% for r in ff5_rows %}
+        <tr class="{{ 'sig' if r.significant else 'insig' }}">
+          <td class="fac-name" title="{{ r.description }}">{{ r.name }}</td>
+          <td class="mono">{{ r.coef }}</td>
+          <td class="mono">{{ r.annualized }}</td>
+          <td class="mono">{{ r.tstat }}</td>
+          <td class="mono">{{ r.pvalue }}{% if r.significant %} <span class="star">★</span>{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <p class="table-note">★ significant at the 5% level (p &lt; 0.05).</p>
+  </div>
+
+  <div class="panel">
+    <h3 class="panel-title">Fama-French 3-Factor &amp; CAPM
+      <span class="panel-sub">FF3 R² = {{ '%.3f' % ff3_r2 }}</span>
+    </h3>
+    <table class="factor-table">
+      <thead>
+        <tr><th>Factor</th><th>β / coef</th><th>Annualized</th><th>t-stat</th><th>p-value</th></tr>
+      </thead>
+      <tbody>
+        {% for r in ff3_rows %}
+        <tr class="{{ 'sig' if r.significant else 'insig' }}">
+          <td class="fac-name" title="{{ r.description }}">{{ r.name }}</td>
+          <td class="mono">{{ r.coef }}</td>
+          <td class="mono">{{ r.annualized }}</td>
+          <td class="mono">{{ r.tstat }}</td>
+          <td class="mono">{{ r.pvalue }}{% if r.significant %} <span class="star">★</span>{% endif %}</td>
+        </tr>
+        {% endfor %}
+        <tr class="divider-row"><td colspan="5">CAPM (vs SPY)</td></tr>
+        {% for r in capm_rows %}
+        <tr class="{{ 'sig' if r.significant else 'insig' }}">
+          <td class="fac-name">{{ r.name }}</td>
+          <td class="mono">{{ r.coef }}</td>
+          <td class="mono">{{ r.annualized }}</td>
+          <td class="mono">{{ r.tstat }}</td>
+          <td class="mono">{{ r.pvalue }}{% if r.significant %} <span class="star">★</span>{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endblock %}

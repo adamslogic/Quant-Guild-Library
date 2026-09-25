@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% block title %}Trading Dashboard — Upload{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <h1 class="hero-title">Turn a returns CSV into a<br /><span class="grad">full quant tearsheet</span></h1>
+  <p class="hero-sub">
+    Upload your daily portfolio returns and instantly get CAPM alpha &amp; beta,
+    Fama-French factor loadings, rolling attribution, and a complete
+    performance &amp; risk breakdown vs. SPY.
+  </p>
+</section>
+
+{% if error %}
+<div class="alert">{{ error }}</div>
+{% endif %}
+
+<form id="analyze-form" class="upload-card" action="{{ url_for('analyze') }}" method="POST" enctype="multipart/form-data">
+  <div id="dropzone" class="dropzone" tabindex="0">
+    <input type="file" id="file-input" name="file" accept=".csv" hidden />
+    <div class="dropzone-inner">
+      <div class="dz-icon">⇪</div>
+      <div class="dz-title">Drag &amp; drop your CSV here</div>
+      <div class="dz-sub">or <span class="dz-browse">browse files</span></div>
+      <div id="file-name" class="dz-filename"></div>
+    </div>
+  </div>
+
+  <div class="controls-row">
+    <label class="control">
+      <span class="control-label">Rolling window (days)</span>
+      <select name="window" class="select">
+        <option value="21">21 — 1 month</option>
+        <option value="42">42 — 2 months</option>
+        <option value="63" selected>63 — 1 quarter</option>
+        <option value="126">126 — 6 months</option>
+        <option value="252">252 — 1 year</option>
+      </select>
+    </label>
+
+    <div class="btn-group">
+      <button type="submit" class="btn btn-primary" id="analyze-btn">Analyze portfolio →</button>
+      {% if sample_available %}
+      <button type="submit" class="btn btn-ghost" name="sample" value="true" formnovalidate>
+        Load sample data
+      </button>
+      {% endif %}
+    </div>
+  </div>
+</form>
+
+<section class="format-note">
+  <h3>Expected CSV format</h3>
+  <p>A <code>date</code> column plus daily <em>simple</em> returns (decimals, e.g. <code>0.001</code> = 0.1%):</p>
+  <pre class="code-sample">date,portfolio_return,SPY
+2023-01-03,-0.0008,0.0034
+2023-01-04,-0.0068,-0.0102
+2023-01-05, 0.0120,0.0079</pre>
+  <p class="format-hint">
+    Column names are matched flexibly (case-insensitive): <code>portfolio</code>/<code>portfolio_return</code>
+    and <code>spy</code>/<code>SPY</code>/<code>spy_return</code> all work.
+  </p>
+</section>
+
+<section class="explain-grid">
+  <div class="explain-card">
+    <h4>CAPM α / β</h4>
+    <p>Regress excess portfolio returns on the market to separate <strong>skill (alpha)</strong> from <strong>market exposure (beta)</strong>.</p>
+  </div>
+  <div class="explain-card">
+    <h4>Fama-French 3 &amp; 5</h4>
+    <p>Decompose returns into size, value, profitability and investment style factors to find what really drives performance.</p>
+  </div>
+  <div class="explain-card">
+    <h4>Rolling attribution</h4>
+    <p>Track factor betas through time to reveal <strong>style drift</strong> in the strategy.</p>
+  </div>
+  <div class="explain-card">
+    <h4>Risk &amp; drawdown</h4>
+    <p>Sharpe, Sortino, volatility, CAGR and the underwater drawdown curve, all benchmarked to SPY.</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/upload.js') }}"></script>
+{% endblock %}

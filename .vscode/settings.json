@@ -1,0 +1,9 @@
+{
+  "python.defaultInterpreterPath": "C:\\Python314\\python.exe",
+  "python.analysis.extraPaths": [
+    "C:\\Users\\Roman\\AppData\\Roaming\\Python\\Python314\\site-packages"
+  ],
+  "basedpyright.analysis.extraPaths": [
+    "C:\\Users\\Roman\\AppData\\Roaming\\Python\\Python314\\site-packages"
+  ]
+}

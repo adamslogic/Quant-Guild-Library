@@ -1,0 +1,11 @@
+# Grid World Search - dependencies
+#
+# The visualiser needs pygame. On Python 3.13/3.14 the classic `pygame` package
+# may not yet ship prebuilt wheels; `pygame-ce` (the community edition) is a
+# drop-in replacement that does, and it exposes the same `import pygame` module.
+# Install whichever your interpreter has wheels for -- the code works with both.
+pygame-ce>=2.5 ; python_version >= "3.13"
+pygame>=2.5    ; python_version <  "3.13"
+
+# Optional: only used if you extend the project with vectorised grids/analysis.
+# numpy>=1.24

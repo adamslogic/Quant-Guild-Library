@@ -1,0 +1,15 @@
+# Trading Dashboard — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+flask>=3.0
+pandas>=2.0
+numpy>=1.24
+statsmodels>=0.14
+plotly>=5.18
+scipy>=1.10
+
+# Fama-French factor data sources. Both are optional at runtime: if neither can
+# reach the internet, the app falls back to a clearly-labeled synthetic factor
+# set so it still runs fully offline.
+getFamaFrenchFactors>=0.0.4
+pandas_datareader>=0.10

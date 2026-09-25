@@ -16,10 +16,29 @@ Welcome to the **Quant Guild Library** — a curated collection of Jupyter Noteb
 
 ### 📅 2026 Video Lectures (Newest First)
 
-**Latest:**
-- **123.** [How a Quant would Invest $1,000,000](https://youtu.be/37wRzGdC9w4)
+*Latest:*
+- **142.** [Everything is technical analysis](https://youtu.be/H1kuzEP-tw8)
+- **141.** [You can't remove emotion from trading, ever](https://youtu.be/24DFxKF4hzs)
+- **140.** [More like Situational Unawareness LP](https://youtu.be/-h8hPIlMgvs)
 
 **Previous:**
+- **139.** [How to Derive the Black-Scholes Equation](https://youtu.be/iMSUU_emIDQ)
+- **138.** [How to Protect your Stock Portfolio Against a Market Crash](https://youtu.be/Z3w8TpH7kYw)
+- **137.** [Projects to Help you Become a Quant (Advanced)](https://youtu.be/MvdP0b7zyQs)
+- **136.** [How Volatility Drag Destroys (and Creates) Wealth](https://youtu.be/pNRkxItN0qM)
+- **135.** [Arithmetic and Geometric Brownian Motion Masterclass](https://youtu.be/J23tj13WOK8)
+- **134.** [How to Build an AI Stock Trading Bot with Interactive Brokers](https://youtu.be/ogZmSXD_56U)
+- **133.** [Projects to Help you Become a Quant (Intermediate)](https://youtu.be/swPOLhSIBHo)
+- **132.** [Live Capital Management: My 2025 Crisis Alpha](https://youtu.be/yRDs4atfRB0)
+- **131.** [Quant Explains Investing at 5 Levels](https://youtu.be/tmkkddOeAsM)
+- **130.** [Projects to Help you Become a Quant (Beginner)](https://youtu.be/secelDZAmWc)
+- **129.** [How to get Higher Sharpe Ratios in a Trading Strategy](https://youtu.be/GTVBT1SQKWY)
+- **128.** [How to Calculate Portfolio Alpha & Beta (Python + Interactive Brokers)](https://youtu.be/A7zJARrdo3U)
+- **127.** [The Ultimate Guide to Quant Portfolio Management](https://youtu.be/LX4Ugaxx9n0)
+- **126.** [How to Model Tail-Risk: A Quantitative Survival Guide](https://youtu.be/-sE1kz-fypI)
+- **125.** [How to Calculate and Use Compound Annual Growth Rate (CAGR)](https://youtu.be/kOzvtRE_uX8)
+- **124.** [When Does a Trading Strategy Actually Need to be Secret](https://youtu.be/WsEwKlr_1lA)
+- **123.** [How a Quant would Invest $1,000,000](https://youtu.be/37wRzGdC9w4)
 - **122.** [A REAL Quant Debunks the Day Trading Scam](https://youtu.be/xa5eSjASDWo)
 - **121.** [Stock Picking is Worse than Gambling at a Casino (I Can Prove It)](https://youtu.be/E2PuxT_SucA)
 - **120.** [I Met a Jane Street Quant at the Gym (He Got This Wrong)](https://youtu.be/E73rL7Hex-k)
